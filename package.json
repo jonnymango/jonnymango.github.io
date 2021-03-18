@@ -1,0 +1,43 @@
+{
+  "name": "jw_2021",
+  "version": "1.0.0",
+  "private": true,
+  "description": "jw_2021",
+  "author": "jonnymangothinkjam",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "deploy": "gatsby build && gh-pages -d public -b master"
+  },
+  "dependencies": {
+    "gatsby": "^2.32.3",
+    "gatsby-image": "^2.11.0",
+    "gatsby-plugin-google-analytics": "^2.11.0",
+    "gatsby-plugin-offline": "^3.10.0",
+    "gatsby-plugin-react-helmet": "^3.10.0",
+    "gatsby-plugin-sass": "^3.2.0",
+    "gatsby-plugin-scroll-reveal": "0.0.7",
+    "gatsby-plugin-sharp": "^2.14.1",
+    "gatsby-plugin-smoothscroll": "^1.2.0",
+    "gatsby-source-filesystem": "^2.11.0",
+    "gatsby-transformer-sharp": "^2.12.0",
+    "postcss-import": "^14.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.1.0",
+    "sass": "^1.32.7"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.4",
+    "gatsby-plugin-postcss": "^3.7.0",
+    "gh-pages": "^3.1.0",
+    "postcss": "^8.2.6",
+    "tailwindcss": "^2.0.3"
+  }
+}
