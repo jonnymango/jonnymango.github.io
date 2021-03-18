@@ -3,7 +3,7 @@ import SocialBtns from "./socialBtns";
 
 const data={
     title: "Contact Me",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+    description: "If you want to get in touch for a chat, find me below.",
     image: 'static/img/me.jpg',
     imagedescription: 'me',
     name: "Jonny Wright",
@@ -17,7 +17,7 @@ const Contact = () => {
       <p className="my-4">
           {data.description}
       </p>
-      <div className="contact grid grid-cols-4 gap-16 my-16 px-20">
+      <div className="contact grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-2 md:gap-16 lg:gap-16 xl:gap-16  my-16 px-0 md:px-20 lg:px-40 xl:px-40">
       <div>
         <img className="rounded-full" src={data.image} alt={data.imagedescription}  />
       </div>

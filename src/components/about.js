@@ -12,7 +12,7 @@ const data = {
 // markup
 const About = () => {
   return (
-    <div className="aboutMe grid grid-cols-2 gap-32 mb-16" id="about-me">
+    <div className="aboutMe grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8 md:gap-32 lg:gap-32 xl:gap-32  mb-16" id="about-me">
         <div className="aboutMe__primary " data-sal="slide-right">
           <h2 className="text-2xl font-bold my-5" data-sal="fade">{data.title}</h2>
           <p>{data.description}</p>
