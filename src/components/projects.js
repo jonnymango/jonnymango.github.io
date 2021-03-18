@@ -24,7 +24,7 @@ const Projects = () => {
 
 {
     projects.map((project, index) =>(
-        <div className="projects grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8 md:gap-32 lg:gap-32 xl:gap-32  mb-16">
+        <div className="projects grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8 md:gap-32 lg:gap-32 xl:gap-32  mb-16">
         {index % 2 ? (<div className="projects__secondary" data-sal="slide-right"><img className="rounded-2xl" src={project.image} alt={project.title} /></div>): false }
         <div className="projects__primary " data-sal={index % 2 ? "slide-left" : "slide-right"}>
         <h2 className="text-xl font-bold my-5">{project.title}</h2>
